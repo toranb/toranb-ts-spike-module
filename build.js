@@ -100,8 +100,6 @@ System.register("build/main", ["./snake","./horse"], true, function(require, exp
   var process = System.get("@@nodeProcess")["default"];
     var __filename = "build/main.js";
     var __dirname = "build";
-  var require;
-  
   exports.Snake = require('./snake');
   exports.Horse = require('./horse');
   
