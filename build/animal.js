@@ -1,5 +1,3 @@
-var React = require('react');
-
 var Animal = (function () {
     function Animal(name) {
         this.name = name;

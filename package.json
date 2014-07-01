@@ -1,6 +1,6 @@
 {
   "name": "toranb-ts-spike-module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "my first ts module published via npm",
   "keywords": [
     "typescript"
@@ -17,8 +17,12 @@
     "node": ">=0.10.26",
     "npm": ">=1.2.10"
   },
-  "main": "build.js",
+  "main": "build/main",
   "licenses": [
     "MIT"
-  ]
+  ],
+  "registry": "jspm",
+  "dependencies": {
+    "react": "npm:react@0.10.0"
+  }
 }
