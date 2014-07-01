@@ -1,7 +1,24 @@
 {
-  "registry": "jspm",
+  "name": "toranb-ts-spike-module",
+  "version": "0.1.0",
+  "description": "my first ts module published via npm",
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "toran billups",
+    "email": "toranb@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toranb/toranb-ts-spike-module"
+  },
+  "engines": {
+    "node": ">=0.10.26",
+    "npm": ">=1.2.10"
+  },
   "main": "build.js",
-  "dependencies": {
-    "react": "npm:react@0.10.0"
-  }
+  "licenses": [
+    "MIT"
+  ]
 }
