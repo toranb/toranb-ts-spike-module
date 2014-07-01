@@ -11,7 +11,11 @@
     <script src="build.js"></script>
 
     <script>
-      System.import('build/main');
+      System.import('build/main').then(function(Main) {
+          var Snake = Main.Snake;
+          var sam = new Snake("Sammy the Python");
+          sam.move();
+      });
     </script>
 
   </body>
