@@ -1,6 +1,6 @@
 {
   "registry": "jspm",
-  "main": "build/main",
+  "main": "build.js",
   "dependencies": {
     "react": "npm:react@0.10.0"
   }
