@@ -1,0 +1,7 @@
+a simple typescript library that exports build/main.js
+
+npm install gulp gulp-tsc gulp-react gulp-shell
+
+jspm install react=npm:react@0.10.0
+
+gulp
