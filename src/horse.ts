@@ -2,7 +2,7 @@ import Animal = require('./animal');
 
 class Horse extends Animal {
     move() {
-        alert("Galloping...");
+        console.log("Galloping...");
         super.move(45);
     }
 }
